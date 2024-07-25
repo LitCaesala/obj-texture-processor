@@ -5,8 +5,10 @@ It's used to create obj file(vertices with colors) from obj file(with texture fi
 
 ## Installation
 
+
 ```bash
 pip install obj_texture_processor
+```
 
 ## Usage
 
@@ -18,3 +20,5 @@ obj_output_path = './path/to/output.obj'
 
 new_obj_file = process_obj_with_texture(obj_input_path, obj_output_path)
 print(f"New OBJ file created at: {new_obj_file}")
+```
+
